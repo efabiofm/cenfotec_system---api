@@ -1,0 +1,74 @@
+[33m47aa498[m Merge branch 'feature/SendEvaluation' into develop
+[33md915bd1[m Create logic to send email
+[33madf5eb0[m Merge pull request #25 from AlejandroBermudezVargas/feature/Import_Users_with_Products
+[33m41ba6a7[m Added logic into users controller to import products information along with user data.
+[33med796f5[m Modified get evaluation method
+[33m02cf9d1[m Merge pull request #24 from AlejandroBermudezVargas/feature/fixQuestionsModels
+[33m6cbb6a8[m Fix models
+[33me448a2d[m Merge pull request #23 from AlejandroBermudezVargas/feature/UpdateEvaluation
+[33ma596f11[m Add logic to update evaluation
+[33mefa3242[m Merge pull request #22 from AlejandroBermudezVargas/feature/fixDataSource
+[33mdb763b8[m Fix lazy loading and datasource
+[33mb95db1f[m DB bacpac
+[33m617f2ed[m Merge pull request #21 from AlejandroBermudezVargas/feature/KpiUpdates
+[33m3278f47[m Update api and db with kpi ad timestamps
+[33meb8932b[m Merge pull request #20 from AlejandroBermudezVargas/feature/createEvaluation
+[33m11558ea[m Modidy the post method in templatesController
+[33ma4666c9[m Merge pull request #19 from AlejandroBermudezVargas/feature/KpiUpdates
+[33mccfe4a0[m -update models
+[33m015d6f9[m Merge pull request #18 from AlejandroBermudezVargas/feature/createEvaluation
+[33m6832d72[m Add template controller and models about that
+[33m684c215[m Merge pull request #17 from AlejandroBermudezVargas/feature/createEvaluation
+[33m0a25af7[m Add all model about evaluations
+[33md427ec7[m Add evaluations controller
+[33m87e8228[m Fix bug in evaluations_answers table
+[33mbd489a8[m Add get teacher method in usersController
+[33m7a67037[m Merge pull request #15 from AlejandroBermudezVargas/feature/QuestionsRoutes
+[33me1c9e48[m Questions and answers controllers created
+[33m166b57e[m Create API routes for questions and answers data
+[33mf352da9[m Merge pull request #14 from AlejandroBermudezVargas/hotfix/fixedProspectusEvent
+[33md13cff0[m Fixed error when saving empty event
+[33m5575122[m Merge pull request #13 from AlejandroBermudezVargas/hotfix/getProspectusInterests
+[33m0dad922[m Fixed error when getting prospectus interests
+[33m0a5ea01[m Merge pull request #12 from AlejandroBermudezVargas/hotfix/editProspectusAssignment
+[33m192bdad[m Fix Prospectus assignment editing
+[33mb2012e0[m Merge pull request #11 from AlejandroBermudezVargas/hotfix/routeProspectusAssign
+[33m03b1a07[m Fix prospectus assignment route
+[33mc456385[m Merge pull request #9 from AlejandroBermudezVargas/feature/guardarProspectosAsignados
+[33meaaf2a1[m Prospectus assignment method created
+[33mf5ebb12[m Save and update method modified to save prospectus event and interests
+[33m90f81d3[m revert metida de patas
+[33mfa1d285[m Merge branch 'develop' of https://github.com/AlejandroBermudezVargas/CenfotecSystem---API into develop
+[33m51e8038[m Product Type Contrroller
+[33m7894725[m Merge pull request #8 from AlejandroBermudezVargas/feature/UpdateDatabase
+[33m447b2c4[m Update database files
+[33m41e1fa3[m Merge pull request #7 from AlejandroBermudezVargas/feature/CreateUser
+[33md8bea2b[m Fix model to autogenerate the primary key
+[33mf5d41fe[m Add password to history of passwords
+[33m0667a77[m Merge pull request #6 from AlejandroBermudezVargas/hotfix/FixDatabaseModels
+[33m8af1f57[m Delete date in products table
+[33m38ca7e3[m Add json property to event model
+[33m54bc11f[m Fix database(create user_prospectus table)(delete event_prospectus table)
+[33m8517cdc[m Merge pull request #5 from AlejandroBermudezVargas/kpi
+[33mb8de900[m Merge pull request #4 from AlejandroBermudezVargas/kpi
+[33m3f1c4c9[m Kpi fix bracket
+[33mfe088e0[m Merge pull request #3 from AlejandroBermudezVargas/kpi
+[33m19645ea[m Merge pull request #2 from AlejandroBermudezVargas/kpi
+[33m92b040c[m KPI querries
+[33m659f552[m Merge pull request #1 from AlejandroBermudezVargas/eventos
+[33meae5dab[m eventos: general changes
+[33m9bcd92b[m Merge branch 'develop'
+[33m5a1262a[m Merge branch 'feature/HistoryOfPasswords' into develop
+[33m1386409[m Add database .sql and .bacpac files
+[33m843754d[m Add histoy model to our Api
+[33md29ce47[m Merge branch 'hotfix/AddLazyLoading' into develop
+[33m1d56645[m Merge branch 'hotfix/AddLazyLoading'
+[33m9269b54[m Lazy Loading = false
+[33m07d463c[m Change database file
+[33mc94eac5[m Merge branch 'hotfix/BitacoraActions' into develop
+[33me150377[m Merge branch 'hotfix/BitacoraActions'
+[33mee4fc44[m Add method in bitacora to involucrate two users un some actions
+[33m0ad4e0e[m Change Bitacora database model
+[33m0db18ec[m First commit
+[33m4a0b439[m Create README.md
+[33mb05fcfd[m Initial commit

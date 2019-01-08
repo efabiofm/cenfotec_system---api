@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7864e05600cf49d0a4ba664da861c25e" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="DatabaseModel.permiso" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.reporte" Width="1.5" PointX="3" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.seguimiento" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.sesion" Width="1.5" PointX="3" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.venta" Width="1.5" PointX="8.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tipo_producto" Width="1.5" PointX="7.5" PointY="19.125" />
+        <EntityTypeShape EntityType="DatabaseModel.kpi" Width="1.5" PointX="9.625" PointY="3.875" />
+        <EntityTypeShape EntityType="DatabaseModel.rol" Width="1.5" PointX="5.25" PointY="3.75" />
+        <EntityTypeShape EntityType="DatabaseModel.tipo_kpi" Width="1.5" PointX="7.375" PointY="4" />
+        <AssociationConnector Association="DatabaseModel.FK_kpi_tipo_kpi" />
+        <AssociationConnector Association="DatabaseModel.rol_permiso" />
+        <EntityTypeShape EntityType="DatabaseModel.bitacora" Width="1.5" PointX="12" PointY="9.375" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_permisos" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_reportes" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_seguimientos" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_sesion" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_tipo_producto" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_ventas" />
+        <EntityTypeShape EntityType="DatabaseModel.historial_contrasennas" Width="1.5" PointX="17.25" PointY="11.875" />
+        <EntityTypeShape EntityType="DatabaseModel.evento" Width="1.5" PointX="3" PointY="13.25" />
+        <EntityTypeShape EntityType="DatabaseModel.prospecto" Width="1.5" PointX="5.25" PointY="15.25" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_eventos" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_prospectos" />
+        <AssociationConnector Association="DatabaseModel.FK_prospectos_eventos" />
+        <AssociationConnector Association="DatabaseModel.prospecto_interes" />
+        <EntityTypeShape EntityType="DatabaseModel.evaluacion_preguntas" Width="1.5" PointX="11.875" PointY="0.875" />
+        <EntityTypeShape EntityType="DatabaseModel.plantilla" Width="1.5" PointX="7.375" PointY="1" />
+        <EntityTypeShape EntityType="DatabaseModel.pregunta" Width="1.5" PointX="9.625" PointY="0.875" />
+        <AssociationConnector Association="DatabaseModel.FK_evaluacion_preguntas_preguntas" />
+        <AssociationConnector Association="DatabaseModel.plantilla_preguntas" />
+        <EntityTypeShape EntityType="DatabaseModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DatabaseModel.usuario" Width="1.5" PointX="8.25" PointY="13.25" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_usuarios" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_usuarios2" />
+        <AssociationConnector Association="DatabaseModel.FK_historial_contrasennas_usuarios" />
+        <AssociationConnector Association="DatabaseModel.FK_usuarios_rols" />
+        <AssociationConnector Association="DatabaseModel.FK_sesion_usuarios" />
+        <AssociationConnector Association="DatabaseModel.FK_ventas_usuarios" />
+        <AssociationConnector Association="DatabaseModel.usuario_prospectos" />
+        <EntityTypeShape EntityType="DatabaseModel.evaluacione" Width="1.5" PointX="12" PointY="16.5" />
+        <EntityTypeShape EntityType="DatabaseModel.producto" Width="1.5" PointX="9.75" PointY="19.5" />
+        <AssociationConnector Association="DatabaseModel.FK_bitacoras_productos" />
+        <AssociationConnector Association="DatabaseModel.FK_evaluacion_preguntas_evaluaciones" />
+        <AssociationConnector Association="DatabaseModel.FK_evaluaciones_productos" />
+        <AssociationConnector Association="DatabaseModel.FK_evaluaciones_usuarios" />
+        <AssociationConnector Association="DatabaseModel.FK_evaluaciones_usuarios1" />
+        <AssociationConnector Association="DatabaseModel.FK_productos_tipo_producto" />
+        <AssociationConnector Association="DatabaseModel.usuario_producto" />
+        <AssociationConnector Association="DatabaseModel.ventas_producto" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
